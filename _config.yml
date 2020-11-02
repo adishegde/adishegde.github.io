@@ -9,8 +9,7 @@ first_name: Aditya
 middle_name: Shridhar
 last_name: Hegde
 email: aditya.shridhar@iiitb.org
-description: >
-  Personal website of Aditya Shridhar Hegde.
+description: Homepage of Aditya Shridhar Hegde.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
