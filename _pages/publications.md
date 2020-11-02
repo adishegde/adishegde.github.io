@@ -8,7 +8,7 @@ nav: true
 ---
 
 <p>
-Authors are primarily listed in alphabetical order which is the norm in cryptography and theoretical CS. In some cases, an asterisk (*) is used to indicate equal contribution and lead authorship.
+Authors are primarily listed in alphabetical order. In some cases, an asterisk (*) is used to indicate equal contribution and lead authorship.
 </p>
 
 <div class="publications">
