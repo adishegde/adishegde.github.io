@@ -22,7 +22,7 @@ nav: true
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Fall 2020: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Set and graded quizzes and conducted tutorial sessions.</li>
+      <li class="list-group-item">Set and graded exams and conducted tutorial sessions.</li>
     </ul>
   </div>
 </div>
@@ -41,7 +41,7 @@ nav: true
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Spring 2020: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Set and graded quizzes and conducted tutorial sessions.</li>
+      <li class="list-group-item">Set and graded exams and conducted tutorial sessions.</li>
     </ul>
   </div>
 </div>
