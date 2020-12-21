@@ -67,31 +67,21 @@
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
     {% endif %}
-    {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
-    {% endif %}
-    {% if entry.html %}
-      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
-    {% endif %}
-    {% if entry.pdf %}
-      {% if entry.pdf contains '://' %}
-      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% else %}
-      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% endif %}
-    {% endif %}
-    {% if entry.supp %}
-      {% if entry.supp contains '://' %}
-      <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
-      {% else %}
-      <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Supp</a>
-      {% endif %}
-    {% endif %}
     {% if entry.blog %}
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
     {% endif %}
     {% if entry.code %}
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a href="{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DoI</a>
+    {% endif %}
+    {% if entry.paper %}
+      {% if entry.paper contains '://' %}
+      <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+      {% else %}
+      <a href="{{ entry.paper | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+      {% endif %}
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
@@ -106,6 +96,9 @@
       {% else %}
       <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
       {% endif %}
+    {% endif %}
+    {% if entry.video %}
+      <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
