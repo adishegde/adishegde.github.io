@@ -64,8 +64,8 @@
     {% endif %}
 
     <div class="links">
-    {% if entry.abstract %}
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    {% if entry.tldr %}
+      <a class="abstract btn btn-sm z-depth-0" role="button">TL;DR</a>
     {% endif %}
     {% if entry.blog %}
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
@@ -106,9 +106,9 @@
     </div>
 
     <!-- Hidden abstract block -->
-    {% if entry.abstract %}
+    {% if entry.tldr %}
     <div class="abstract hidden">
-      <p>{{ entry.abstract }}</p>
+      <p>{{ entry.tldr }}</p>
     </div>
     {% endif %}
   </div>
