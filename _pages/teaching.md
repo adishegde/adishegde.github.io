@@ -46,7 +46,6 @@ nav: true
     <ul class="card-text font-weight-light list-group list-group-flush mx-4">
       <li><b>Instructor</b>: Prof. Ashish Choudhury</li>
       <li><b>Other Teaching Assistants</b>: Nikhil Pappu</li>
-      <li>I helped set and grade exams, and conduct tutorial sessions.</li>
     </ul>
   </div>
 </div>
@@ -67,7 +66,6 @@ nav: true
     <ul class="card-text font-weight-light list-group list-group-flush mx-4">
       <li><b>Instructor</b>: Prof. Ashish Choudhury</li>
       <li><b>Other Teaching Assistants</b>: Nikhil Pappu</li>
-      <li>I helped set and grade exams, and conduct tutorial sessions.</li>
     </ul>
   </div>
 </div>
@@ -87,7 +85,6 @@ nav: true
     <h6 class="font-italic mt-2 mt-sm-0">Spring 2020: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush mx-4">
       <li><b>Instructor</b>: Prof. Ashish Choudhury</li>
-      <li>I set and graded exams and conducted tutorial sessions.</li>
     </ul>
   </div>
 </div>
