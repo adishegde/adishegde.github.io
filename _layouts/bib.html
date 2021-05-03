@@ -20,11 +20,20 @@
       <div class="author">
         {% for author in entry.author_array %}
             {%- capture author_name -%}
-              {%- if author.last == site.scholar.last_name -%}
+              {%- assign author_not_found = true -%}
+              {%- if author.last == site.scholar.last_name and site.scholar.first_name contains author.first -%}
                 <em>{{author.first}} {{author.last}}</em>
+                {%- assign author_not_found = false -%}
               {%- elsif site.data.coauthors[author.last] -%}
-                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
-              {%- else -%}
+                {%- for coauthor in site.data.coauthors[author.last] -%}
+                  {%- if coauthor.first_name contains author.first -%}
+                    <a href="{{coauthor.url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                    {%- assign author_not_found = false -%}
+                    {%- break -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+              {%- if author_not_found -%}
                 {{author.first}} {{author.last}}
               {%- endif -%}
             {%- endcapture -%}
