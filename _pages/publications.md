@@ -8,14 +8,11 @@ nav: true
 ---
 
 <p>
-Authors are primarily listed in alphabetical order. In some cases, an asterisk (*) is used to indicate equal contribution and lead authorship.
+Authors are primarily listed in alphabetical order. An asterisk (*) is used in case of exceptions to indicate equal contribution and lead authorship.
 </p>
 
 <div class="publications">
 
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+{% include bib.html %}
 
 </div>
