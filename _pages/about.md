@@ -9,12 +9,11 @@ profile:
   address: false #
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a 5th year Integrated Masters (B.Tech + M.Tech) student at [IIIT Bangalore](https://www.iiitb.ac.in/) where I'm majoring in Computer Science and Engineering. I'm interested in cryptography and more broadly, in theoretical computer science.
+I'm a PhD student in the [ARC](https://arc.isi.jhu.edu/) group at Johns Hopkins University where I'm advised by [Abhishek Jain](https://www.cs.jhu.edu/~abhishek/) and [Matthew Green](https://isi.jhu.edu/~mgreen/).
+My research interests are in cryptography and more broadly, in theoretical computer science.
 
-I have been working on problems related to computing on private data over the past year under the supervision of [Prof. Ashish Choudhury](https://sites.google.com/site/ashishcrypto/home). As part of my Master's thesis, I am working on improving the efficiency of Multi-Party Computation protocols in the asynchronous and partially synchronous network settings.
-
-You can find me spending my free time [reading](https://www.goodreads.com/user/show/84322676-aditya-hegde), lurking on Reddit or Twitter and occasionally binge-watching anime and TV-shows.
+Previously, I was an Integrated Masters (B.Tech + M.Tech) student at [IIIT Bangalore](https://www.iiitb.ac.in/) where I majored in Computer Science and Engineering and was advised by [Ashish Choudhury](https://sites.google.com/view/ashish-choudhury).
+During this time, I also worked with members of the [CrIS Lab](https://www.csa.iisc.ac.in/~cris/people.html) under the supervision of [Arpita Patra](https://www.csa.iisc.ac.in/~arpita/).
