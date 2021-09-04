@@ -8,6 +8,7 @@
     venue: PETS
     resources:
       eprint: "https://eprint.iacr.org/2021/809.pdf"
+      code: "https://github.com/encryptogroup/SoK_ppClustering"
     summary: |
       In this paper we survey prior works on privacy-preserving clustering.
       We evaluate the performance of the state-of-the-art protocols and discuss their limitations for real-world applications.
