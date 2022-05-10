@@ -11,7 +11,7 @@
     summary: |
       <b>Can we construct n-party MPC protocols for conditional circuits that have a communication complexity independent of the number of branches?</b>
       We present compilers that can transform a large class of generic MPC protocols into those for conditional circuits which achieve communication complexity independent of the number of branches and linear in the size of the largest branch.
-      We discuss how to construct semi-honest constant round, and semi-honest and malicious non-constant round branching MPC protocols.
+      We discuss construction of semi-honest constant round protocols, and semi-honest and malicious non-constant round protocols.
 
 2021:
   - title: "SoK: Efficient Privacy-preserving Clustering"
@@ -48,7 +48,7 @@
       paper: "https://doi.org/10.1117/12.2581273"
     summary: |
       <b>Can machine learning help enhance scans from CT systems with large detector sizes to better help with diagnosis?</b>
-      We propose a supervised deep learning method based on GANs that preserves tissues and tissue-contrast and improves tissue interface in bone/soft tissue while limiting noise enhancement.
+      We propose a supervised deep learning approach, based on GANs, that preserves tissues and tissue-contrast and improves tissue interface in bone/soft tissue while limiting noise enhancement.
 
 2020:
   - title: High Throughput Secure MPC Over Small Population in Hybrid Networks (Extended Abstract)
@@ -74,7 +74,7 @@
     resources:
       paper: "https://www.ijcai.org/Proceedings/2020/0024.pdf"
     summary: |
-      <b>Can we incorporate ethical descision making and its impact on reputation in agent based models?</b>
+      <b>Can we incorporate ethical decision making and its impact on reputation in agent based models?</b>
       We propose a framework that attempts to model reputation and ethics using virtue ethics and utilitarianism.
       Our simulations show that unethical agents make short term gains but are less prosperous in the long run.
       We find that unethical agents have high incentive to become ethical in societies which strongly reward ethical behavior.
