@@ -1,4 +1,17 @@
 2022:
+  - title: "Attaining GOD Beyond Honest Majority with Friends and Foes"
+    authors:
+      - Aditya Hegde
+      - Nishat Koti
+      - Varsha Bhat Kukkala
+      - Shravani Patil
+      - Arpita Patra
+      - Protik Paul
+    venue: ASIACRYPT
+    resources:
+      code: "https://github.com/cris-iisc/quadsquad"
+      eprint: "https://eprint.iacr.org/2022/1207"
+
   - title: "Secure Multiparty Computation with Free Branching"
     authors:
       - Aarushi Goel
@@ -8,6 +21,7 @@
     venue: EUROCRYPT
     resources:
       code: "https://github.com/rot256/research-branching-mpc"
+      video: "https://www.youtube.com/watch?v=95F1nlj8jjg"
     summary: |
       <b>Can we construct n-party MPC protocols for conditional circuits that have a communication complexity independent of the number of branches?</b>
       We present compilers that can transform a large class of generic MPC protocols into those for conditional circuits which achieve communication complexity independent of the number of branches and linear in the size of the largest branch.
