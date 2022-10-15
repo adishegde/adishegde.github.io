@@ -9,8 +9,13 @@
       - Protik Paul
     venue: ASIACRYPT
     resources:
-      code: "https://github.com/cris-iisc/quadsquad"
       eprint: "https://eprint.iacr.org/2022/1207"
+      code: "https://github.com/cris-iisc/quadsquad"
+    summary: |
+      <b>Can we construct MPC protocols with GOD that don't need to reveal secrets to an honest party in the worst case?</b>
+      We present an efficient 4-party protocol in the Friends and Foes model (Alon et al.) tolerating one malicious party and one semi-honest party.
+      Unlike most other MPC protocols with GOD for a small number of parties, an honest party does not need to be elevated to a trusted third party to compute the output and inputs remain private against both honest and corrupt parties despite any malicious behaviour including making the protocol transcript of corrupt parties public.
+      This ensures robustness of computation while supporting a more intuitive definition of privacy (where inputs are never revealed to a single party) which makes it amenable to real life applications.
 
   - title: "Secure Multiparty Computation with Free Branching"
     authors:
