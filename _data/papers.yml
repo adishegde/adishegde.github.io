@@ -11,6 +11,7 @@
     resources:
       eprint: "https://eprint.iacr.org/2022/1207"
       code: "https://github.com/cris-iisc/quadsquad"
+      video: "https://www.youtube.com/watch?v=iM4RSMkf0S0"
     summary: |
       <b>Can we construct MPC protocols with GOD that don't need to reveal secrets to an honest party in the worst case?</b>
       We present an efficient 4-party protocol in the Friends and Foes model (Alon et al.) tolerating one malicious party and one semi-honest party.
@@ -43,6 +44,7 @@
     resources:
       eprint: "https://eprint.iacr.org/2021/809.pdf"
       code: "https://github.com/encryptogroup/SoK_ppClustering"
+      video: "https://www.youtube.com/watch?v=jjyuW3_NPS4"
     summary: |
       <b>What are the current approaches for privacy-preserving clustering and are they suitable for real-life application?</b>
       We survey prior works on privacy-preserving clustering and summarize the approach used to design secure clustering protocols.
