@@ -1,0 +1,52 @@
+<ol class="bibliography">
+{% for entry in site.data.manuscripts %}
+  <li>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title">{{entry.title}}</div>
+
+        <div class="author">
+          {% assign user_name = site.scholar.first_name | append: ' ' | append: site.scholar.last_name %}
+          {% for author in entry.authors %}
+            {%- capture author_name -%}
+              {%- if author == user_name -%}
+                <em>{{author}}</em>
+              {%- else -%}
+                {{author}}
+              {%- endif -%}
+            {%- endcapture -%}
+
+            {%- if entry.leadauth -%}
+              {%- assign leadauthnum = entry.leadauth | plus: 0 -%}
+              {%- if forloop.index <= leadauthnum -%}
+                {%- assign author_name = author_name | append: "*" -%}
+              {%- endif -%}
+            {%- endif -%}
+
+            {% if forloop.length == 1 %}
+              {{author_name}}
+            {% elsif forloop.index < forloop.length %}
+              {{author_name}},
+            {% else %}
+              and {{author_name}}
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="links">
+        {% if entry.summary %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
+        {% endif %}
+        {% for res in entry.resources %}
+          {% if res[1] contains '://' %}
+            <a href="{{ res[1] }}" class="btn btn-sm z-depth-0" role="button" target="_blank">{{ res[0] }}</a>
+          {% else %}
+          <a href="{{ res[1] | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">{{ res[0] }}</a>
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </li>
+{% endfor %}
+</ol>
