@@ -51,26 +51,6 @@
       We evaluate the state-of-the-art protocols and discuss their limitations for real world applications with respect to efficiency and quality of clustering.
       We also discuss current open challenges in applying current privacy-preserving clustering protocols when compared to their plaintext variants to set the stage for future research.
 
-  - title: Enhancing Z-resolution in CT Volumes with Deep Residual Learning
-    authors:
-      - Utkarsh Agrawal
-      - Aditya Hegde
-      - Rajesh Langoju
-      - Prasad Sudhakar
-      - Bhushan D. Patil
-      - Sundar R. K.
-      - Yasuhiro Imai
-      - Risa Shigemasa
-      - Omi Yasuo
-      - Bipul Das
-    leadauth: 1
-    venue: SPIE
-    resources:
-      paper: "https://doi.org/10.1117/12.2581273"
-    summary: |
-      <b>Can machine learning help enhance scans from CT systems with large detector sizes to better help with diagnosis?</b>
-      We propose a supervised deep learning approach, based on GANs, that preserves tissues and tissue-contrast and improves tissue interface in bone/soft tissue while limiting noise enhancement.
-
 2020:
   - title: High Throughput Secure MPC Over Small Population in Hybrid Networks (Extended Abstract)
     authors:
