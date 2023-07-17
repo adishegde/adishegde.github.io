@@ -1,0 +1,23 @@
+{% for entry in site.data.teaching %}
+<div class="p-1">
+  <div class="row">
+    <div class="col-sm-10">
+      <h5>{{entry.org}}</h5>
+      {% for course in entry.courses %}
+      <ul>
+        <li>
+          <b>{{course.name}}</b>
+          {% if course.ta %}
+          </br>
+          Teaching Assistant:
+          {% for year in course.ta %}
+          {{year}}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+          {% endif %}
+        </li>
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,11 @@
+- org: IIIT Bangalore
+  courses:
+    - name: Foundations Of Cryptography
+      ta: [2020, 2021]
+    - name: Discrete Maths
+      ta: [2020]
+
+- org: NPTEL
+  courses:
+    - name: Discrete Maths
+      ta: [2021]

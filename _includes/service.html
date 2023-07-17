@@ -1,0 +1,7 @@
+<ul>
+  <li><b>External Reviewer:</b>
+  {% for entry in site.data.service.external %}
+  {{entry}}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  </li>
+</ul>
