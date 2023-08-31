@@ -1,3 +1,19 @@
+2023:
+  - title: "Scalable Multiparty Garbling"
+    authors:
+      - Gabrielle Beck
+      - Aarushi Goel
+      - Aditya Hegde
+      - Abhishek Jain
+      - Zhengzhong Jin
+      - Gabriel Kaptchuk
+    venue: CCS
+    resources:
+      eprint: "https://eprint.iacr.org/2023/099"
+      code: "https://github.com/adishegde/scalable_garbling"
+    summary: |
+      <b>Does there exist an efficient and scalable multiparty garbling protocol?</b>
+      We present a concretely efficient multiparty garbling protocol in the honest majority setting with total communication complexity independent of the number of parties and total computation complexity linear in the number of parties.
 2022:
   - title: "Attaining GOD Beyond Honest Majority with Friends and Foes"
     authors:

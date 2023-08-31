@@ -35,6 +35,7 @@ layout: default
     {% endif %}
   </article>
 
+  {% if site.data.manuscripts %}
   <header class="post-header pt-5">
     <h1 class="post-title">Manuscripts</h1>
   </header>
@@ -44,6 +45,7 @@ layout: default
       {% include manuscripts.html %}
     </div>
   </article>
+  {% endif %}
 
   <header class="post-header pt-5">
     <h1 class="post-title">Publications</h1>
