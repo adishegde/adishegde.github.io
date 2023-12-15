@@ -1,0 +1,28 @@
+- name: Scalable Multiparty Garbling
+  venues:
+    - name: Galois
+      assets:
+        video: https://www.youtube.com/watch?v=uFpCZHplFho
+    - name: CCS 2023
+      assets:
+        slides: BGHJJK23.pdf
+
+- name: "SoK: Efficient Privacy-preserving Clustering"
+  venues:
+    - name: PETS 2021
+      assets:
+        video: https://www.youtube.com/watch?v=jjyuW3_NPS4
+        slides: HMSY21.pdf
+
+- name: High Throughput Secure MPC Over Small Population in Hybrid Networks
+  venues:
+    - name: Indocrypt 2020
+      assets:
+        video: https://www.youtube.com/watch?v=ZieL6CZHmUo
+        slides: CH20.pdf
+
+- name: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
+  venues:
+    - name: IJCAI 2020
+      assets:
+        slides: HAR20.pdf

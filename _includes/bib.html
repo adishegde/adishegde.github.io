@@ -12,14 +12,9 @@
           <div class="title">{{entry.title}}</div>
 
           <div class="author">
-            {% assign user_name = site.scholar.first_name | append: ' ' | append: site.scholar.last_name %}
             {% for author in entry.authors %}
               {%- capture author_name -%}
-                {%- if author == user_name -%}
-                  <em>{{author}}</em>
-                {%- else -%}
-                  {{author}}
-                {%- endif -%}
+                {{author}}
               {%- endcapture -%}
 
               {%- if entry.leadauth -%}
@@ -39,15 +34,15 @@
             {% endfor %}
           </div>
 
-          <div class="links">
+          <div>
           {% if entry.summary %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Summary</a>
+            [<a class="abstract" href="#" onClick="return false;" role="button">summary</a>]
           {% endif %}
           {% for res in entry.resources %}
             {% if res[1] contains '://' %}
-              <a href="{{ res[1] }}" class="btn btn-sm z-depth-0" role="button" target="_blank">{{ res[0] }}</a>
+              [<a href="{{ res[1] }}" role="button" target="_blank">{{ res[0] | lowercase }}</a>]
             {% else %}
-            <a href="{{ res[1] | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">{{ res[0] }}</a>
+              [<a href="{{ res[1] | prepend: '/assets/pdf/' | relative_url }}" target="_blank">{{ res[0] | lowercase }}</a>]
             {% endif %}
           {% endfor %}
           </div>

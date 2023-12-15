@@ -27,7 +27,6 @@
     resources:
       eprint: "https://eprint.iacr.org/2022/1207"
       code: "https://github.com/cris-iisc/quadsquad"
-      video: "https://www.youtube.com/watch?v=iM4RSMkf0S0"
     summary: |
       <b>Can we construct MPC protocols with GOD that don't need to reveal secrets to an honest party in the worst case?</b>
       We present an efficient 4-party protocol in the Friends and Foes model tolerating one malicious party and one semi-honest party.
@@ -44,7 +43,6 @@
     resources:
       eprint: "https://eprint.iacr.org/2023/901"
       code: "https://github.com/rot256/research-branching-mpc"
-      video: "https://www.youtube.com/watch?v=95F1nlj8jjg"
     summary: |
       <b>Can we construct n-party MPC protocols for conditional circuits that have a communication complexity independent of the number of branches?</b>
       We present compilers that can transform a large class of generic MPC protocols into those for conditional circuits which achieve communication complexity independent of the number of branches and linear in the size of the largest branch.
@@ -61,7 +59,6 @@
     resources:
       eprint: "https://eprint.iacr.org/2021/809.pdf"
       code: "https://github.com/encryptogroup/SoK_ppClustering"
-      video: "https://www.youtube.com/watch?v=jjyuW3_NPS4"
     summary: |
       <b>What are the current approaches for privacy-preserving clustering and are they suitable for real-life application?</b>
       We survey prior works on privacy-preserving clustering and summarize the approach used to design secure clustering protocols.
@@ -76,7 +73,6 @@
     venue: INDOCRYPT
     resources:
       paper: CH20.pdf
-      video: https://www.youtube.com/watch?v=ZieL6CZHmUo
     summary: |
       <b>How can we design efficient MPC protocols for a small number of parties that make minimal synchrony assumptions about the network?</b>
       We discuss high-throughput 4-party MPC protocols in the partially synchronous and asynchronous settings making a step towards constructing efficient protocols in this setting.
