@@ -9,9 +9,9 @@
         {{venue.name}}
         {% for asset in venue.assets %}
           {% if asset[1] contains '://' %}
-            [<a href="{{ asset[1] }}" target="_blank">{{ asset[0] | capitalize }}</a>]
+            [<a href="{{ asset[1] }}" target="_blank">{{ asset[0] | lowercase }}</a>]
           {% else %}
-            [<a href="{{ asset[1] | prepend: '/assets/slides/' | relative_url }}" target="_blank">{{ asset[0] | capitalize }}</a>]
+            [<a href="{{ asset[1] | prepend: '/assets/slides/' | relative_url }}" target="_blank">{{ asset[0] | lowercase }}</a>]
           {% endif %}
         {% endfor %}
         </li>
