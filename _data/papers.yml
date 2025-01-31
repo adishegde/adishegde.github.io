@@ -1,3 +1,30 @@
+2025:
+  - title: "Enhanced Trapdoor Hashing from DDH and DCR"
+    authors:
+      - Geoffroy Couteau
+      - Aditya Hegde
+      - Sihang Pu
+    venue: EUROCRYPT
+
+  - title: "Breaking the 1/λ-Rate Barrier for Arithmetic Garbling"
+    authors:
+      - Geoffroy Couteau
+      - Carmit Hazay
+      - Aditya Hegde
+      - Naman Kumar
+    venue: EUROCRYPT
+
+  - title: "Multi-key Homomorphic Secret Sharing"
+    authors:
+      - Geoffroy Couteau
+      - Lalita Devadas
+      - Aditya Hegde
+      - Abhishek Jain
+      - Sacha Servan-Schreiber
+    venue: EUROCRYPT
+    resources:
+      eprint: "https://eprint.iacr.org/2025/094"
+
 2024:
   - title: "Homomorphic Secret Sharing with Verifiable Evaluation"
     authors:
@@ -6,6 +33,7 @@
       - Aditya Hegde
       - Abhishek Jain
     venue: TCC
+
 2023:
   - title: "Scalable Multiparty Garbling"
     authors:
@@ -19,9 +47,7 @@
     resources:
       eprint: "https://eprint.iacr.org/2023/099"
       code: "https://github.com/adishegde/scalable_garbling"
-    summary: |
-      <b>Does there exist an efficient and scalable multiparty garbling protocol?</b>
-      We present a concretely efficient multiparty garbling protocol in the honest majority setting with total communication complexity independent of the number of parties and total computation complexity linear in the number of parties.
+
 2022:
   - title: "Attaining GOD Beyond Honest Majority with Friends and Foes"
     authors:
@@ -35,11 +61,6 @@
     resources:
       eprint: "https://eprint.iacr.org/2022/1207"
       code: "https://github.com/cris-iisc/quadsquad"
-    summary: |
-      <b>Can we construct MPC protocols with GOD that don't need to reveal secrets to an honest party in the worst case?</b>
-      We present an efficient 4-party protocol in the Friends and Foes model tolerating one malicious party and one semi-honest party.
-      Unlike most other MPC protocols with GOD for a small number of parties, an honest party does not need to be elevated to a trusted third party to compute the output and inputs remain private against both honest and corrupt parties despite any malicious behaviour, including making the protocol transcript of corrupt parties public.
-      This ensures robustness of computation while supporting a more intuitive definition of privacy (where inputs are never revealed to a single party) which makes it amenable to real world applications.
 
   - title: "Secure Multiparty Computation with Free Branching"
     authors:
@@ -51,10 +72,6 @@
     resources:
       eprint: "https://eprint.iacr.org/2023/901"
       code: "https://github.com/rot256/research-branching-mpc"
-    summary: |
-      <b>Can we construct n-party MPC protocols for conditional circuits that have a communication complexity independent of the number of branches?</b>
-      We present compilers that can transform a large class of generic MPC protocols into those for conditional circuits which achieve communication complexity independent of the number of branches and linear in the size of the largest branch.
-      We discuss construction of semi-honest constant round protocols, and semi-honest and malicious non-constant round protocols.
 
 2021:
   - title: "SoK: Efficient Privacy-preserving Clustering"
@@ -67,11 +84,6 @@
     resources:
       eprint: "https://eprint.iacr.org/2021/809.pdf"
       code: "https://github.com/encryptogroup/SoK_ppClustering"
-    summary: |
-      <b>What are the current approaches for privacy-preserving clustering and are they suitable for real-life application?</b>
-      We survey prior works on privacy-preserving clustering and summarize the approach used to design secure clustering protocols.
-      We evaluate the state-of-the-art protocols and discuss their limitations for real world applications with respect to efficiency and quality of clustering.
-      We also discuss current open challenges in applying current privacy-preserving clustering protocols when compared to their plaintext variants to set the stage for future research.
 
 2020:
   - title: High Throughput Secure MPC Over Small Population in Hybrid Networks (Extended Abstract)
@@ -81,10 +93,6 @@
     venue: INDOCRYPT
     resources:
       paper: CH20.pdf
-    summary: |
-      <b>How can we design efficient MPC protocols for a small number of parties that make minimal synchrony assumptions about the network?</b>
-      We discuss high-throughput 4-party MPC protocols in the partially synchronous and asynchronous settings making a step towards constructing efficient protocols in this setting.
-      Our work partially answers one of the open problems of PR18 to design a perfectly secure MPC protocol over partially synchronous networks with 2 initial synchronous rounds.
 
   - title: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
     authors:
@@ -95,9 +103,3 @@
     venue: IJCAI
     resources:
       paper: "https://www.ijcai.org/Proceedings/2020/0024.pdf"
-    summary: |
-      <b>Can we incorporate ethical decision making and its impact on reputation in agent based models?</b>
-      We propose a framework that attempts to model reputation and ethics using virtue ethics and utilitarianism.
-      Our simulations show that unethical agents make short term gains but are less prosperous in the long run.
-      We find that unethical agents have high incentive to become ethical in societies which strongly reward ethical behavior.
-      The opposite is true of societies which strongly penalize unethical behavior.
