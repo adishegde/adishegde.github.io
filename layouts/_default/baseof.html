@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
+    <style>
+      .profile-pic {
+        float: right;
+        width: 100%;
+        margin-left: 2em;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      }
+    </style>
+  </head>
+  <body>
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>
