@@ -1,0 +1,128 @@
+- title: How to Trace Viral Content in End-to-End Encrypted Messaging
+  year: manuscript
+  authors:
+    - Pedro Branco
+    - Matthew Green
+    - Aditya Hegde
+    - Abhishek Jain
+    - Gabriel Kaptchuk
+
+- title: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
+  year: manuscript
+  authors:
+    - Geoffroy Couteau
+    - Carmit Hazay
+    - Aditya Hegde
+    - Naman Kumar
+  resources:
+    eprint: "https://eprint.iacr.org/2025/268"
+
+- title: Enhanced Trapdoor Hashing from DDH and DCR
+  year: 2025
+  authors:
+    - Geoffroy Couteau
+    - Aditya Hegde
+    - Sihang Pu
+  venue: EUROCRYPT
+
+- title: Breaking the 1/λ-Rate Barrier for Arithmetic Garbling
+  year: 2025
+  authors:
+    - Geoffroy Couteau
+    - Carmit Hazay
+    - Aditya Hegde
+    - Naman Kumar
+  venue: EUROCRYPT
+
+- title: Multi-key Homomorphic Secret Sharing
+  year: 2025
+  authors:
+    - Geoffroy Couteau
+    - Lalita Devadas
+    - Aditya Hegde
+    - Abhishek Jain
+    - Sacha Servan-Schreiber
+  venue: EUROCRYPT
+  resources:
+    eprint: "https://eprint.iacr.org/2025/094"
+
+- title: Homomorphic Secret Sharing with Verifiable Evaluation
+  year: 2024
+  authors:
+    - Arka Rai Choudhuri
+    - Aarushi Goel
+    - Aditya Hegde
+    - Abhishek Jain
+  venue: TCC
+
+- title: Scalable Multiparty Garbling
+  year: 2023
+  authors:
+    - Gabrielle Beck
+    - Aarushi Goel
+    - Aditya Hegde
+    - Abhishek Jain
+    - Zhengzhong Jin
+    - Gabriel Kaptchuk
+  venue: CCS
+  resources:
+    eprint: "https://eprint.iacr.org/2023/099"
+    code: "https://github.com/adishegde/scalable_garbling"
+
+- title: Attaining GOD Beyond Honest Majority with Friends and Foes
+  year: 2022
+  authors:
+    - Aditya Hegde
+    - Nishat Koti
+    - Varsha Bhat Kukkala
+    - Shravani Patil
+    - Arpita Patra
+    - Protik Paul
+  venue: ASIACRYPT
+  resources:
+    eprint: "https://eprint.iacr.org/2022/1207"
+    code: "https://github.com/cris-iisc/quadsquad"
+
+- title: Secure Multiparty Computation with Free Branching
+  year: 2022
+  authors:
+    - Aarushi Goel
+    - Mathias Hall-Andersen
+    - Aditya Hegde
+    - Abhishek Jain
+  venue: EUROCRYPT
+  resources:
+    eprint: "https://eprint.iacr.org/2023/901"
+    code: "https://github.com/rot256/research-branching-mpc"
+
+- title: "SoK: Efficient Privacy-preserving Clustering"
+  year: 2021
+  authors:
+    - Aditya Hegde
+    - Helen Möllering
+    - Thomas Schneider
+    - Hossein Yalame
+  venue: PETS
+  resources:
+    eprint: "https://eprint.iacr.org/2021/809"
+    code: "https://github.com/encryptogroup/SoK_ppClustering"
+
+- title: High Throughput Secure MPC Over Small Population in Hybrid Networks
+  year: 2020
+  authors:
+    - Ashish Choudhury
+    - Aditya Hegde
+  venue: INDOCRYPT
+  resources:
+    paper: /papers/CH20.pdf
+
+- title: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
+  year: 2020
+  authors:
+    - Aditya Hegde
+    - Vibhav Agarwal
+    - Shrisha Rao
+  venue: IJCAI
+  leadauth: 2
+  resources:
+    paper: "https://www.ijcai.org/Proceedings/2020/0024.pdf"

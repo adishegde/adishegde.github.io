@@ -1,0 +1,38 @@
+{{- $pubs := .Site.Data.papers -}}
+{{- $byYear := dict -}}
+{{- $years := slice -}}
+
+{{- range $pubs -}}
+  {{- $year := printf "%v" .year -}}
+  {{- $entry := index $byYear $year -}}
+  {{- if not $entry -}}
+    {{- $entry := slice -}}
+    {{- $years = $years | append $year -}}
+  {{- end -}}
+  {{- $entry = $entry | append . -}}
+  {{- $byYear = merge $byYear (dict $year $entry) -}}
+{{- end -}}
+
+{{- $manuscripts := index $byYear "manuscript" -}}
+{{- if $manuscripts -}}
+  <div class="paper-year">
+    <hr><span>Unpublished Mansucripts</span><hr>
+  </div>
+  <ul class="papers">
+  {{- range $manuscripts -}}
+    {{- partial "paper.html" . -}}
+  {{- end -}}
+  </ul>
+{{- end -}}
+
+{{- $years = symdiff (slice "manuscript") $years -}}
+{{- range (sort $years "value" "desc") -}}
+  <div class="paper-year">
+    <hr><span>{{ . }}</span><hr>
+  </div>
+  <ul class="papers">
+    {{- range index $byYear . -}}
+      {{- partial "paper.html" . -}}
+    {{- end -}}
+  </ul>
+{{- end -}}

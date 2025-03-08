@@ -1,0 +1,45 @@
+- name: Multi-key Homomorphic Secret Sharing
+  venues:
+    - name: TPMPC 2025
+      assets:
+        video: "https://www.youtube.com/live/XArMqKIAbmI?si=YMs7eMMVVTOJ6faX&t=9115"
+        slides: "slides/CDHJS25_tpmpc.pdf"
+
+- name: Homomorphic Secret Sharing with Verifiable Evaluation
+  venues:
+    - name: TCC 2024
+      assets:
+        slides: "slides/CGHJ24_tcc.pdf"
+
+- name: How to Trace Viral Content in End-to-End Encrypted Messaging
+  venues:
+    - name: UMD College Park
+
+- name: Scalable Multiparty Garbling
+  venues:
+    - name: Galois
+      assets:
+        video: "https://www.youtube.com/watch?v=uFpCZHplFho"
+    - name: CCS 2023
+      assets:
+        slides: "slides/BGHJJK23_ccs.pdf"
+
+- name: "SoK: Efficient Privacy-preserving Clustering"
+  venues:
+    - name: PETS 2021
+      assets:
+        video: "https://www.youtube.com/watch?v=jjyuW3_NPS4"
+        slides: "slides/HMSY21_pets.pdf"
+
+- name: High Throughput Secure MPC Over Small Population in Hybrid Networks
+  venues:
+    - name: Indocrypt 2020
+      assets:
+        video: "https://www.youtube.com/watch?v=ZieL6CZHmUo"
+        slides: "slides/CH20_indocrypt.pdf"
+
+- name: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
+  venues:
+    - name: IJCAI 2020
+      assets:
+        slides: "slides/HAR20_ijcai.pdf"

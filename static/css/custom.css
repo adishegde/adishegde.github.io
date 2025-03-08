@@ -1,0 +1,62 @@
+.profile-pic {
+  float: right;
+  width: 100%;
+  margin-left: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.paper-year {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: -1em;
+  color: #999;
+}
+
+.paper-year > hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.paper-year > span {
+  padding: 0 10px;
+}
+
+.papers > li:not(:first-child) {
+  margin-top: 1em;
+}
+
+.paper-venue {
+  color: #AC1754;
+  font-weight: 600;
+  margin-right: 1em;
+}
+
+.section {
+  margin-top: 3em;
+}
+
+.talk {
+  list-style: none;
+}
+
+.talk a {
+  font-size: 11pt;
+}
+
+.talk-venue-name {
+  margin-right: 1em
+}
+
+.menubar {
+  display: flex;
+  gap: 2em;
+  margin-top: 1em;
+  justify-content: right;
+}
+
+.menubar > a {
+  color: #555;
+}

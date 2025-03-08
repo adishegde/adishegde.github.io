@@ -1,0 +1,25 @@
+<ul class="talks">
+  {{- range .Site.Data.talks -}}
+    <li class="talk">
+      <strong>{{ .name }}</strong>
+      <ul>
+        {{- range .venues -}}
+          <li>
+            <span class="talk-venue-name">{{ .name }}</span>
+            {{- if .assets -}}
+              {{- $numAssets := len .assets -}}
+              {{- $i := 1 -}}
+              {{- range $k, $v := .assets -}}
+                <a target="_blank" href="{{ $v }}">{{ strings.FirstUpper $k }}</a>
+                {{- if not (eq $i $numAssets) -}}
+                  &nbsp;&middot;&nbsp;
+                {{- end -}}
+                {{- $i = add 1 $i -}}
+              {{- end -}}
+            {{- end -}}
+          </li>
+        {{- end -}}
+      </ul>
+    </li>
+  {{- end -}}
+</ul>
