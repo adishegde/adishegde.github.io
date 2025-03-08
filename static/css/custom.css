@@ -1,9 +1,35 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro-text {
+  text-align: justify;
+}
+
 .profile-pic {
   float: right;
   width: 170px;
   margin-left: 2em;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-pic {
+    order: -1;
+    width: 170px;
+    margin-left: 0;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  }
 }
 
 .paper-year {

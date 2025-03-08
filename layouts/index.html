@@ -4,34 +4,32 @@
     <a href="#papers">Papers</a>
     <a href="#talks">Talks</a>
   </div>
-  <div style="margin-top: 2em; margin-bottom: 5em">
-    <h1>Aditya Hegde</h1>
-    <div style="display: flex; align-items: center;">
-      <div style="text-align: justify">
-        {{ .Content }}
-      </div>
-      <img class="profile-pic" src="/img/prof_pic.jpg">
+  <h1>Aditya Hegde</h1>
+  <div class="intro">
+    <div class="intro-text">
+      {{ .Content }}
     </div>
-    <div style="display: flex; gap: 2em; margin-top: 2em; justify-content: center;">
-      <a href="mailto:ahegde@cs.jhu.edu">
-        <img src="/img/mail.svg" style="width: 50px; height: 50px; vertical-align: middle;">
-      </a>
-      <a href="https://scholar.google.com/citations?user=pC-C0gcAAAAJ">
-        <img src="/img/scholar.svg" style="width: 50px; height: 50px; vertical-align: middle;">
-      </a>
-      <a href="https://github.com/adishegde">
-        <img src="/img/github.svg" style="width: 50px; height: 50px; vertical-align: middle;">
-      </a>
-    </div>
-    <div class="section" id="papers">
-      <h2>Papers</h2>
-      <p>In cryptography, authors are generally listed in alphabetical order. An asterisk (*) is used in case of exceptions to indicate equal contribution and lead authorship.</p>
-      {{ partial "papers.html" . }}
-    </div>
-    <div class="section" id="talks">
-      <h2>Talks</h2>
-      {{ partial "talks.html" . }}
-    </div>
+    <img class="profile-pic" src="/img/prof_pic.jpg">
+  </div>
+  <div style="display: flex; gap: 2em; margin-top: 2em; justify-content: center;">
+    <a href="mailto:ahegde@cs.jhu.edu">
+      <img src="/img/mail.svg" style="width: 50px; height: 50px; vertical-align: middle;">
+    </a>
+    <a href="https://scholar.google.com/citations?user=pC-C0gcAAAAJ">
+      <img src="/img/scholar.svg" style="width: 50px; height: 50px; vertical-align: middle;">
+    </a>
+    <a href="https://github.com/adishegde">
+      <img src="/img/github.svg" style="width: 50px; height: 50px; vertical-align: middle;">
+    </a>
+  </div>
+  <div class="section" id="papers">
+    <h2>Papers</h2>
+    <p>In cryptography, authors are generally listed in alphabetical order. An asterisk (*) is used in case of exceptions to indicate equal contribution and lead authorship.</p>
+    {{ partial "papers.html" . }}
+  </div>
+  <div class="section" id="talks" style="margin-bottom: 5em">
+    <h2>Talks</h2>
+    {{ partial "talks.html" . }}
   </div>
 </main>
 {{ end }}
