@@ -1,8 +1,14 @@
 {{ define "main" }}
+{{- $headless := .Site.GetPage "/homepage" -}}
 <main>
   <div class="menubar">
     <a href="#papers">Papers</a>
     <a href="#talks">Talks</a>
+    {{- range ($headless.Resources.ByType "page") -}}
+      <a href="#{{ .File.BaseFileName }}">
+        {{ strings.FirstUpper .File.BaseFileName }}
+      </a>
+    {{- end -}}
   </div>
   <h1>Aditya Hegde</h1>
   <div class="intro">
@@ -27,9 +33,17 @@
     <p>In cryptography, authors are generally listed in alphabetical order. An asterisk (*) is used in case of exceptions to indicate equal contribution and lead authorship.</p>
     {{ partial "papers.html" . }}
   </div>
-  <div class="section" id="talks" style="margin-bottom: 5em">
+  <div class="section" id="talks">
     <h2>Talks</h2>
     {{ partial "talks.html" . }}
   </div>
+  {{- $headless := .Site.GetPage "/homepage" -}}
+  {{- range ($headless.Resources.ByType "page") -}}
+    <div class="section" id="{{ .File.BaseFileName }}">
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </div>
+  {{- end -}}
+  <div style="margin-bottom: 5em"></div>
 </main>
 {{ end }}
