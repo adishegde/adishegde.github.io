@@ -8,12 +8,13 @@
     - Gabriel Kaptchuk
 
 - title: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
-  year: manuscript
+  year: 2025
   authors:
     - Geoffroy Couteau
     - Carmit Hazay
     - Aditya Hegde
     - Naman Kumar
+  venue: CRYPTO
   resources:
     eprint: "https://eprint.iacr.org/2025/268"
 
