@@ -1,9 +1,23 @@
+- name: Breaking the 1/λ-Rate Barrier for Arithmetic Garbling
+  venues:
+    - name: EUROCRYPT 2025
+      assets:
+          slides: "slides/CHHK25_ec.pdf"
+
+- name: Enhanced Trapdoor Hashing from DDH and DCR
+  venues:
+    - name: EUROCRYPT 2025
+      assets:
+          slides: "slides/CHP25_ec.pdf"
+
 - name: Multi-key Homomorphic Secret Sharing
   venues:
+    - name: EUROCRYPT 2025
+      assets:
+        slides: "slides/CDHJS25_ec.pdf"
     - name: TPMPC 2025
       assets:
         video: "https://www.youtube.com/live/XArMqKIAbmI?si=YMs7eMMVVTOJ6faX&t=9115"
-        slides: "slides/CDHJS25_tpmpc.pdf"
 
 - name: Homomorphic Secret Sharing with Verifiable Evaluation
   venues:
