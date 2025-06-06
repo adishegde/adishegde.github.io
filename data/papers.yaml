@@ -6,6 +6,8 @@
     - Aditya Hegde
     - Abhishek Jain
     - Gabriel Kaptchuk
+  resources:
+    eprint: "https://eprint.iacr.org/2025/1052"
 
 - title: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
   year: 2025
@@ -34,6 +36,8 @@
     - Aditya Hegde
     - Naman Kumar
   venue: EUROCRYPT
+  resources:
+    eprint: "https://eprint.iacr.org/2025/1053"
 
 - title: Multi-Key Homomorphic Secret Sharing
   year: 2025
