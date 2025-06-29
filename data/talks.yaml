@@ -3,18 +3,21 @@
     - name: EUROCRYPT 2025
       assets:
           slides: "slides/CHHK25_ec.pdf"
+          video: "https://youtu.be/GrzIgFKRedE?si=SjoWE62GU3TZtBNq&t=839"
 
 - name: Enhanced Trapdoor Hashing from DDH and DCR
   venues:
     - name: EUROCRYPT 2025
       assets:
           slides: "slides/CHP25_ec.pdf"
+          video: "https://youtu.be/p7mkbb-OCXg?si=dBvJ-WJ_oHISpVhd&t=2434"
 
 - name: Multi-key Homomorphic Secret Sharing
   venues:
     - name: EUROCRYPT 2025
       assets:
         slides: "slides/CDHJS25_ec.pdf"
+        video: "https://youtu.be/QFghlfyTrJs?si=LhSuMsAJUSx8IJ9m"
     - name: TPMPC 2025
       assets:
         video: "https://www.youtube.com/live/XArMqKIAbmI?si=YMs7eMMVVTOJ6faX&t=9115"
