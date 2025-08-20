@@ -59,6 +59,8 @@
     - Aditya Hegde
     - Abhishek Jain
   venue: TCC
+  resources:
+    eprint: "https://eprint.iacr.org/2025/1491"
 
 - title: Scalable Multiparty Garbling
   year: 2023
