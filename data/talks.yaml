@@ -1,8 +1,14 @@
+- name: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
+  venues:
+    - name: CRYPTO 2025
+      assets:
+          slides: "slides/CHHK25b_crypto.pdf"
+
 - name: Breaking the 1/λ-Rate Barrier for Arithmetic Garbling
   venues:
     - name: EUROCRYPT 2025
       assets:
-          slides: "slides/CHHK25_ec.pdf"
+          slides: "slides/CHHK25a_ec.pdf"
           video: "https://youtu.be/GrzIgFKRedE?si=SjoWE62GU3TZtBNq&t=839"
 
 - name: Enhanced Trapdoor Hashing from DDH and DCR
