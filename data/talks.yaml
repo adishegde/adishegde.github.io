@@ -1,3 +1,9 @@
+- name: Client-Server Homomorphic Secret Sharing in the CRS Model
+  venues:
+    - name: NTT CIS Seminar
+      assets:
+          slides: "slides/ACDHJRS26_ntt.pdf"
+
 - name: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
   venues:
     - name: CRYPTO 2025

@@ -9,6 +9,18 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/1052"
 
+- title: Client-Server Homomorphic Secret Sharing in the CRS Model
+  year: 2026
+  authors:
+    - Damiano Abram
+    - Geoffroy Couteau
+    - Lalita Devadas
+    - Aditya Hegde
+    - Abhishek Jain
+    - Lawrence Roy
+    - Sacha Servan-Schreiber
+  venue: EUROCRYPT
+
 - title: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
   year: 2025
   authors:
