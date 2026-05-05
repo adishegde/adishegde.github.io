@@ -9,6 +9,14 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/1052"
 
+- title: Multiparty Computation with Minimal Overhead without Circuit Transformation
+  year: 2026
+  authors:
+    - Aditya Hegde
+    - Phuoc Van Long Pham
+    - Mingyuan Wang
+  venue: CRYPTO
+
 - title: Client-Server Homomorphic Secret Sharing in the CRS Model
   year: 2026
   authors:
