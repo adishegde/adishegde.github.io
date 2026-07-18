@@ -9,6 +9,14 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/1052"
 
+- title: "HoneyCodes: Auditable Short-Code Authentication After Verifier Compromise"
+  year: 2026
+  authors:
+    - Matthew Green
+    - Aditya Hegde
+    - Dorian Liu
+  venue: CCS
+
 - title: Multiparty Computation with Minimal Overhead without Circuit Transformation
   year: 2026
   authors:
