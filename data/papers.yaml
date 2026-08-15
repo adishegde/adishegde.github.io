@@ -1,11 +1,12 @@
 - title: How to Trace Viral Content in End-to-End Encrypted Messaging
-  year: manuscript
+  year: 2026
   authors:
     - Pedro Branco
     - Matthew Green
     - Aditya Hegde
     - Abhishek Jain
     - Gabriel Kaptchuk
+  venue: ASIACRYPT
   resources:
     eprint: "https://eprint.iacr.org/2025/1052"
 
