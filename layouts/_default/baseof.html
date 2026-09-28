@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="https://unpkg.com/marx-css@4.1.1/css/marx.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
+    {{ $styles := resources.Get "css/custom.css" | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
   </head>
   <body>
     {{ block "main" . }}{{ end }}

@@ -60,7 +60,7 @@ h2,
 }
 
 .profile {
-  flex: 0 0 170px;
+  flex: 0 0 190px;
   margin-left: 2em;
 }
 
@@ -88,7 +88,7 @@ h2,
 
 .profile-pic {
   display: block;
-  width: 170px;
+  width: 190px;
   border-radius: 10px;
 }
 
@@ -107,6 +107,10 @@ h2,
     flex-basis: auto;
     margin-left: 0;
     margin-bottom: 1em;
+  }
+
+  .profile-pic {
+    width: 170px;
   }
 }
 
