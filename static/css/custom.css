@@ -1,10 +1,52 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-italic-latin.woff2") format("woff2");
+}
+
 :root {
   color-scheme: light;
+  /* Change these two variables to replace the site's typefaces. */
+  --font-reading: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-structure: var(--font-reading);
+
+  /* Keep the imported Marx stylesheet in sync with the choices above. */
+  --font-family: var(--font-reading);
+  --serif: var(--font-reading);
+  --sans-serif: var(--font-structure);
 }
 
 body {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
+  font-family: var(--font-reading);
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-reading);
+}
+
+h2,
+.menubar,
+.paper-year,
+.paper-venue,
+.talk-venue-name {
+  font-family: var(--font-structure);
 }
 
 .intro {
