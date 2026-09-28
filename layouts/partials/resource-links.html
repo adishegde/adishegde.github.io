@@ -1,0 +1,17 @@
+{{- /* Preferred labels first; Hugo ranges remaining map keys alphabetically. */ -}}
+{{- $preferred := slice "eprint" "paper" "slides" "code" "recording" -}}
+{{- $resources := . -}}
+{{- $labels := slice -}}
+{{- range $preferred -}}
+  {{- if isset $resources . -}}
+    {{- $labels = $labels | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- range $label, $url := $resources -}}
+  {{- if not (in $preferred $label) -}}
+    {{- $labels = $labels | append $label -}}
+  {{- end -}}
+{{- end -}}
+{{- range $labels -}}
+  <a target="_blank" href="{{ index $resources . }}">[{{ lower . }}]</a>
+{{- end -}}

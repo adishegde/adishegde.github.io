@@ -59,12 +59,37 @@ h2,
   text-align: justify;
 }
 
-.profile-pic {
-  float: right;
-  width: 170px;
+.profile {
+  flex: 0 0 170px;
   margin-left: 2em;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em 1.25em;
+  margin-top: 0.5em;
+  font-family: var(--font-structure);
+}
+
+.contact-links > a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em 0;
+}
+
+.contact-links img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.profile-pic {
+  display: block;
+  width: 170px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 @media (max-width: 600px) {
@@ -73,58 +98,204 @@ h2,
     align-items: center;
   }
 
-  .profile-pic {
+  .intro-text {
+    text-align: left;
+  }
+
+  .profile {
     order: -1;
-    width: 170px;
+    flex-basis: auto;
     margin-left: 0;
     margin-bottom: 1em;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   }
 }
 
+.paper-group {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+  margin-top: 2.5rem;
+}
+
 .paper-year {
-  display: flex;
-  align-items: center;
-  margin-top: 2em;
-  margin-bottom: -1em;
-  color: #999;
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
-.paper-year > hr {
-  flex: 1;
-  border: none;
-  border-top: 1px solid #ddd;
+.papers-note {
+  color: #555;
+  font-size: 0.9375rem;
+  line-height: 1.5;
 }
 
-.paper-year > span {
-  padding: 0 10px;
+.papers-note + .paper-group {
+  margin-top: 1.25rem;
+}
+
+.paper-group-manuscripts {
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .paper-group {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.75rem;
+  }
+}
+
+.papers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .papers > li:not(:first-child) {
-  margin-top: 1em;
+  margin-top: 1.25rem;
+}
+
+.paper-title,
+.talk-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.paper-authors,
+.paper-details {
+  color: #555;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.paper-authors {
+  margin-top: 0.125rem;
+}
+
+.paper-details {
+  margin-top: 0.125rem;
+}
+
+.paper-venues {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5em;
+}
+
+.paper-venues + .paper-resources {
+  margin-top: 0;
+}
+
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.125rem 0.75rem;
+}
+
+.resource-links > a {
+  white-space: nowrap;
+}
+
+.talk-resources {
+  display: inline-flex;
 }
 
 .paper-venue {
   color: #AC1754;
-  font-weight: 600;
-  margin-right: 1em;
+  font-weight: 400;
 }
 
 .section {
   margin-top: 3em;
 }
 
-.talk {
+.talks,
+.talk-venues {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.talk a {
-  font-size: 11pt;
+.talk + .talk {
+  margin-top: 1.25rem;
 }
 
-.talk-venue-name {
-  margin-right: 1em
+.talk-venues {
+  margin-top: 0.125rem;
+}
+
+.talk-venue {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.125rem 0.75rem;
+  color: #555;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.talk-venue + .talk-venue {
+  margin-top: 0.125rem;
+}
+
+#service h3,
+#teaching h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#service ul,
+#teaching ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.25rem;
+  color: #555;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+#service ul {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+#service li,
+#teaching li {
+  break-inside: avoid;
+  margin-bottom: 0.375rem;
+}
+
+#service li strong,
+#teaching li strong {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#teaching .teaching-courses > li + li {
+  margin-top: 0.875rem;
+}
+
+.teaching-offerings {
+  margin-top: 0.125rem;
+  line-height: 1.4;
+}
+
+.teaching-separator {
+  padding: 0 0.125em;
+}
+
+@media (max-width: 600px) {
+  #service ul {
+    columns: 1;
+  }
 }
 
 .menubar {
@@ -136,4 +307,11 @@ h2,
 
 .menubar > a {
   color: #555;
+}
+
+@media (max-width: 600px) {
+  .menubar {
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+  }
 }

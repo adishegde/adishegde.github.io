@@ -9,28 +9,31 @@
         {{ strings.FirstUpper .File.BaseFileName }}
       </a>
     {{- end -}}
+    <a href="#teaching">Teaching</a>
   </div>
   <h1>Aditya Hegde</h1>
   <div class="intro">
     <div class="intro-text">
       {{ .Content }}
     </div>
-    <img class="profile-pic" src="/img/prof_pic.jpg">
-  </div>
-  <div style="display: flex; gap: 2em; margin-top: 2em; justify-content: center;">
-    <a href="mailto:ahegde@cs.jhu.edu">
-      <img src="/img/mail.svg" style="width: 50px; height: 50px; vertical-align: middle;">
-    </a>
-    <a href="https://scholar.google.com/citations?user=pC-C0gcAAAAJ">
-      <img src="/img/scholar.svg" style="width: 50px; height: 50px; vertical-align: middle;">
-    </a>
-    <a href="https://github.com/adishegde">
-      <img src="/img/github.svg" style="width: 50px; height: 50px; vertical-align: middle;">
-    </a>
+    <div class="profile">
+      <img class="profile-pic" src="/img/prof_pic.jpg" alt="Aditya Hegde">
+      <nav class="contact-links" aria-label="Contact and profiles">
+        <a href="mailto:ahegde@cs.jhu.edu" aria-label="Email" title="Email">
+          <img src="/img/mail.svg" width="24" height="24" alt="">
+        </a>
+        <a href="https://scholar.google.com/citations?user=pC-C0gcAAAAJ" aria-label="Google Scholar" title="Google Scholar">
+          <img src="/img/scholar.svg" width="24" height="24" alt="">
+        </a>
+        <a href="https://github.com/adishegde" aria-label="GitHub" title="GitHub">
+          <img src="/img/github.svg" width="24" height="24" alt="">
+        </a>
+      </nav>
+    </div>
   </div>
   <div class="section" id="papers">
     <h2>Papers</h2>
-    <p>In cryptography, authors are generally listed in alphabetical order. An asterisk (*) is used in case of exceptions to indicate equal contribution and lead authorship.</p>
+    <p class="papers-note">In cryptography, authors are generally listed in alphabetical order. An asterisk (*) is used in case of exceptions to indicate equal contribution and lead authorship.</p>
     {{ partial "papers.html" . }}
   </div>
   <div class="section" id="talks">
@@ -44,6 +47,10 @@
       {{ .Content }}
     </div>
   {{- end -}}
+  <div class="section" id="teaching">
+    <h2>Teaching</h2>
+    {{ partial "teaching.html" . }}
+  </div>
   <div style="margin-bottom: 5em"></div>
 </main>
 {{ end }}

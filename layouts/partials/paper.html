@@ -1,6 +1,7 @@
 {{- $paper := . -}}
 <li>
-  <strong>{{- .title -}}</strong><br>
+  <div class="paper-title">{{- .title -}}</div>
+  <div class="paper-authors">
   {{- $numAuthors := len .authors -}}
   {{- $i := 1 -}}
   {{- range .authors -}}
@@ -9,25 +10,30 @@
       *
     {{- end -}}
     {{- if not (eq $i $numAuthors) -}}
-      ,&nbsp;
+      {{- ", " -}}
     {{- end -}}
     {{- $i = add 1 $i -}}
   {{- end -}}
-  <br>
-  <div style="margin-top: 0.25em">
-    {{- if .venue -}}
-      <span class="paper-venue">{{- .venue -}}</span>
+  </div>
+  {{- $venues := .venues -}}
+  {{- if and (not $venues) .venue -}}
+    {{- $venues = slice .venue -}}
+  {{- end -}}
+  {{- if or $venues .resources -}}
+  <div class="paper-details">
+    {{- with $venues -}}
+      <div class="paper-venues">
+        {{- range $i, $venue := . -}}
+          {{- if $i }} <span class="venue-separator" aria-hidden="true">&middot;</span> {{ end -}}
+          <span class="paper-venue">{{ $venue }}</span>
+        {{- end -}}
+      </div>
     {{- end -}}
     {{- if .resources -}}
-      {{- $numResources := len .resources -}}
-      {{- $i := 1 -}}
-      {{- range $k, $v := .resources -}}
-        <a target="_blank" href="{{ $v }}">{{ strings.FirstUpper $k }}</a>
-        {{- if not (eq $i $numResources) -}}
-          &nbsp;&bull;&nbsp;
-        {{- end -}}
-        {{- $i = add 1 $i -}}
-      {{- end -}}
+      <div class="paper-resources resource-links">
+        {{- partial "resource-links.html" .resources -}}
+      </div>
     {{- end -}}
   </div>
+  {{- end -}}
 </li>

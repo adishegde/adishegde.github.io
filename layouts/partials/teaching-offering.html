@@ -1,0 +1,16 @@
+{{- if .url -}}
+  <a href="{{ .url }}">{{ .term }}</a>
+{{- else -}}
+  <span>{{ .term }}</span>
+{{- end -}}
+{{- with .co_instructors -}}
+  <span class="teaching-separator" aria-hidden="true"> · </span>co-taught with {{ "" -}}
+  {{- range $i, $person := . -}}
+    {{- if $i }}{{ if eq $i (sub (len $.co_instructors) 1) }} and {{ else }}, {{ end }}{{ end -}}
+    {{- if .url -}}
+      <a href="{{ .url }}">{{ .name }}</a>
+    {{- else -}}
+      {{ .name }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

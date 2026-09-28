@@ -1,44 +1,47 @@
+- name: Multiparty Computation with Minimal Overhead without Circuit Transformation
+  venues:
+    - name: CRYPTO 2026
+
 - name: Client-Server Homomorphic Secret Sharing in the CRS Model
   venues:
     - name: NTT CIS Seminar
+    - name: DC Area Crypto Day
+    - name: EUROCRYPT 2026
       assets:
-          slides: "slides/ACDHJRS26_ntt.pdf"
+        recording: "https://youtu.be/NR4JdVSjhxM?si=_B9yR7LzNKYA5j5R&t=1162"
 
 - name: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
   venues:
     - name: CRYPTO 2025
       assets:
-          slides: "slides/CHHK25b_crypto.pdf"
+        recording: "https://youtu.be/weg4WKxS9Ak"
 
 - name: Breaking the 1/λ-Rate Barrier for Arithmetic Garbling
   venues:
     - name: EUROCRYPT 2025
       assets:
-          slides: "slides/CHHK25a_ec.pdf"
-          video: "https://youtu.be/GrzIgFKRedE?si=SjoWE62GU3TZtBNq&t=839"
+        recording: "https://youtu.be/GrzIgFKRedE?si=SjoWE62GU3TZtBNq&t=839"
 
 - name: Enhanced Trapdoor Hashing from DDH and DCR
   venues:
     - name: EUROCRYPT 2025
       assets:
-          slides: "slides/CHP25_ec.pdf"
-          video: "https://youtu.be/p7mkbb-OCXg?si=dBvJ-WJ_oHISpVhd&t=2434"
+        recording: "https://youtu.be/p7mkbb-OCXg?si=dBvJ-WJ_oHISpVhd&t=2434"
 
 - name: Multi-key Homomorphic Secret Sharing
   venues:
     - name: EUROCRYPT 2025
       assets:
-        slides: "slides/CDHJS25_ec.pdf"
-        video: "https://youtu.be/QFghlfyTrJs?si=LhSuMsAJUSx8IJ9m"
+        recording: "https://youtu.be/QFghlfyTrJs?si=LhSuMsAJUSx8IJ9m"
     - name: TPMPC 2025
       assets:
-        video: "https://www.youtube.com/live/XArMqKIAbmI?si=YMs7eMMVVTOJ6faX&t=9115"
+        recording: "https://www.youtube.com/live/XArMqKIAbmI?si=YMs7eMMVVTOJ6faX&t=9115"
 
 - name: Homomorphic Secret Sharing with Verifiable Evaluation
   venues:
     - name: TCC 2024
       assets:
-        slides: "slides/CGHJ24_tcc.pdf"
+        recording: "https://youtu.be/g2QyauGmwak"
 
 - name: How to Trace Viral Content in End-to-End Encrypted Messaging
   venues:
@@ -48,27 +51,21 @@
   venues:
     - name: Galois
       assets:
-        video: "https://www.youtube.com/watch?v=uFpCZHplFho"
+        recording: "https://www.youtube.com/watch?v=uFpCZHplFho"
     - name: CCS 2023
-      assets:
-        slides: "slides/BGHJJK23_ccs.pdf"
 
 - name: "SoK: Efficient Privacy-preserving Clustering"
   venues:
     - name: PETS 2021
       assets:
-        video: "https://www.youtube.com/watch?v=jjyuW3_NPS4"
-        slides: "slides/HMSY21_pets.pdf"
+        recording: "https://www.youtube.com/watch?v=jjyuW3_NPS4"
 
 - name: High Throughput Secure MPC Over Small Population in Hybrid Networks
   venues:
     - name: Indocrypt 2020
       assets:
-        video: "https://www.youtube.com/watch?v=ZieL6CZHmUo"
-        slides: "slides/CH20_indocrypt.pdf"
+        recording: "https://www.youtube.com/watch?v=ZieL6CZHmUo"
 
 - name: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
   venues:
     - name: IJCAI 2020
-      assets:
-        slides: "slides/HAR20_ijcai.pdf"

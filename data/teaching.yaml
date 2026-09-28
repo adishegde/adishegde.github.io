@@ -1,0 +1,30 @@
+- role: Instructor
+  courses:
+    - title: Modern Cryptography
+      institution: JHU
+      offerings:
+        - term: Spring 2026
+          url: https://adishegde.github.io/modern_crypto_sp26/
+          co_instructors:
+            - name: Harry Eldridge
+              url: https://harryeldridge.com/
+
+- role: Teaching Assistant
+  courses:
+    - title: Practical Cryptography
+      institution: JHU
+      offerings:
+        - term: "2025"
+    - title: Foundations of Cryptography
+      institution: IIIT Bangalore
+      offerings:
+        - term: "2020"
+        - term: "2021"
+    - title: Discrete Mathematics
+      institution: NPTEL
+      offerings:
+        - term: "2021"
+    - title: Discrete Mathematics
+      institution: IIIT Bangalore
+      offerings:
+        - term: "2020"

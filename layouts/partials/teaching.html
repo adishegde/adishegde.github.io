@@ -1,0 +1,17 @@
+{{- range .Site.Data.teaching -}}
+  <h3>{{ .role }}</h3>
+  <ul class="teaching-courses" role="list">
+    {{- range .courses -}}
+      <li>
+        <strong>{{ .title }}</strong>
+        {{- $institution := .institution -}}
+        {{- range .offerings -}}
+          <div class="teaching-offerings">
+            {{ $institution }}<span class="teaching-separator" aria-hidden="true"> · </span>
+            {{- partial "teaching-offering.html" . -}}
+          </div>
+        {{- end -}}
+      </li>
+    {{- end -}}
+  </ul>
+{{- end -}}
