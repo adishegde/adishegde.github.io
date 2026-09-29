@@ -69,3 +69,5 @@
 - name: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
   venues:
     - name: IJCAI 2020
+      assets:
+        recording: "https://www.ijcai.org/proceedings/2020/video/26983"

@@ -31,6 +31,7 @@
     - TPMPC 2026
   resources:
     slides: "slides/HPW26.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-032-35418-1_5"
 
 - title: Client-Server Homomorphic Secret Sharing in the CRS Model
   year: 2026
@@ -46,6 +47,7 @@
     - EUROCRYPT 2026
   resources:
     slides: "slides/ACDHJRS26.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-032-25324-8_3"
 
 - title: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
   year: 2025
@@ -59,6 +61,7 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/268"
     slides: "slides/CHHK25b.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-032-01884-7_16"
 
 - title: Enhanced Trapdoor Hashing from DDH and DCR
   year: 2025
@@ -70,6 +73,7 @@
     - EUROCRYPT 2025
   resources:
     slides: "slides/CHP25.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-031-91095-1_5"
 
 - title: Breaking the 1/λ-Rate Barrier for Arithmetic Garbling
   year: 2025
@@ -84,6 +88,7 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/1053"
     slides: "slides/CHHK25a.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-031-91095-1_7"
 
 - title: Multi-Key Homomorphic Secret Sharing
   year: 2025
@@ -99,6 +104,7 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/094"
     slides: "slides/CDHJS25.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-031-91092-0_1"
 
 - title: Homomorphic Secret Sharing with Verifiable Evaluation
   year: 2024
@@ -112,6 +118,7 @@
   resources:
     eprint: "https://eprint.iacr.org/2025/1491"
     slides: "slides/CGHJ24.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-031-78023-3_20"
 
 - title: Scalable Multiparty Garbling
   year: 2023
@@ -128,6 +135,7 @@
     eprint: "https://eprint.iacr.org/2023/099"
     code: "https://github.com/adishegde/scalable_garbling"
     slides: "slides/BGHJJK23.pdf"
+    proceedings: "https://doi.org/10.1145/3576915.3623132"
 
 - title: Attaining GOD Beyond Honest Majority with Friends and Foes
   year: 2022
@@ -143,6 +151,7 @@
   resources:
     eprint: "https://eprint.iacr.org/2022/1207"
     code: "https://github.com/cris-iisc/quadsquad"
+    proceedings: "https://doi.org/10.1007/978-3-031-22963-3_19"
 
 - title: Secure Multiparty Computation with Free Branching
   year: 2022
@@ -156,6 +165,7 @@
   resources:
     eprint: "https://eprint.iacr.org/2023/901"
     code: "https://github.com/rot256/research-branching-mpc"
+    proceedings: "https://doi.org/10.1007/978-3-031-06944-4_14"
 
 - title: "SoK: Efficient Privacy-preserving Clustering"
   year: 2021
@@ -170,6 +180,7 @@
     eprint: "https://eprint.iacr.org/2021/809"
     code: "https://github.com/encryptogroup/SoK_ppClustering"
     slides: "slides/HMSY21.pdf"
+    proceedings: "https://petsymposium.org/popets/2021/popets-2021-0068.php"
 
 - title: High Throughput Secure MPC Over Small Population in Hybrid Networks
   year: 2020
@@ -181,6 +192,7 @@
   resources:
     paper: /papers/CH20.pdf
     slides: "slides/CH20.pdf"
+    proceedings: "https://doi.org/10.1007/978-3-030-65277-7_37"
 
 - title: "Ethics, Prosperity, and Society: Moral Evaluation Using Virtue Ethics and Utilitarianism"
   year: 2020
@@ -194,3 +206,4 @@
   resources:
     paper: "https://www.ijcai.org/Proceedings/2020/0024.pdf"
     slides: "slides/HAR20.pdf"
+    proceedings: "https://www.ijcai.org/proceedings/2020/24"
