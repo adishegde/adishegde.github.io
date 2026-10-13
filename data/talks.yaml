@@ -4,11 +4,11 @@
 
 - name: Client-Server Homomorphic Secret Sharing in the CRS Model
   venues:
-    - name: NTT CIS Seminar
-    - name: DC Area Crypto Day
     - name: EUROCRYPT 2026
       assets:
         recording: "https://youtu.be/NR4JdVSjhxM?si=_B9yR7LzNKYA5j5R&t=1162"
+    - name: DC Area Crypto Day
+    - name: NTT CIS Seminar
 
 - name: 𝜔(1/𝜆)-Rate Boolean Garbling Scheme from Generic Groups
   venues:
@@ -49,10 +49,10 @@
 
 - name: Scalable Multiparty Garbling
   venues:
+    - name: CCS 2023
     - name: Galois
       assets:
         recording: "https://www.youtube.com/watch?v=uFpCZHplFho"
-    - name: CCS 2023
 
 - name: "SoK: Efficient Privacy-preserving Clustering"
   venues:
